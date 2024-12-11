@@ -8,7 +8,7 @@ def menuPrincipal():
         print("*** MENU PRINCIPAL ***")
         print("1. Agregar Transaccion")
         print("2. Eliminar Transaccion")
-        print("3. Crear Informe PDF")
+        print("3. Modificar transaccion")
         print("4. Finalizar")
         opc=int(input("Ingrese una opción (1-4): "))
         if opc<1 or opc>4:
